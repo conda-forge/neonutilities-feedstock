@@ -9,6 +9,10 @@ Package license: AGPL-3.0-only
 
 Summary: A package for accessing and wrangling data generated and published by the National Ecological Observatory Network.
 
+Development: https://github.com/NEONScience/NEON-utilities-python
+
+Documentation: https://neon-utilities-python.readthedocs.io/
+
 Current build status
 ====================
 
