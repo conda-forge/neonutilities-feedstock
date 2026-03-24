@@ -28,7 +28,7 @@ requirements:
     - importlib-resources
     - pandas
     - parameterized
-    - pyarrow >= 23.0
+    - pyarrow >=23.0
     - pyproj
     - requests
     - tqdm
