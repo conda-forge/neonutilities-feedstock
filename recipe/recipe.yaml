@@ -34,6 +34,7 @@ requirements:
     - tqdm
     - h5py
     - google-crc32c
+    - duckdb >=1.5.0
 
 tests:
   - python:
