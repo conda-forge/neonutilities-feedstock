@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: neonutilities
-  version: "1.2.2"
+  version: "2.0.0"
   python_min: "3.10"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/neonutilities-${{ version }}.tar.gz
-  sha256: bb097d2657b6934b0abdbb70a3235efc1200e2c1b63ef7940b96d5f88b8ad94f
+  sha256: 3a39a1dc57f026ede9e9a94d1250814ea9fe89450776447f8707a88e81dfde9f
 
 build:
   number: 0
@@ -34,6 +34,7 @@ requirements:
     - tqdm
     - h5py
     - google-crc32c
+    - duckdb >=1.5.0
 
 tests:
   - python:
