@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: neonutilities
-  version: "2.0.1"
+  version: "2.0.2"
   python_min: "3.10"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/neonutilities-${{ version }}.tar.gz
-  sha256: bb794a48d3898efaf52ce8889a66f24c74da675abfb45f540c6233d79117dee1
+  sha256: c827f978c16baa6286740e69a960eb68bbcd1464300c7b0450cac89463521869
 
 build:
   number: 0
